@@ -6,10 +6,9 @@
 trigger:
 - master
 
-pool:
-  name: Default
-  demands: 
-    -agent.name -equals ITSSBNGNB55
+pool: 
+  default
+
 
 steps:
 - script: echo Hello, world!
